@@ -4,13 +4,13 @@
 #include <locale.h>
 #include <ctype.h>
 
-//----------------------------------------------------
+//-----------------------------------------------------
 #ifdef _WIN32
     #define limpa_tela() system("cls")
 #else
     #define limpa_tela() system("clear")
 #endif
-//----------------------------------------------------
+//-----------------------------------------------------
 
 typedef struct usuario {
     char nome[50];
